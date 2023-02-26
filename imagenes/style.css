@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+  background: #dedede;
+}
+
+.navegacion {
+  width: 1000px;
+  margin: 30px auto;
+  background: black;
+}
+
+.navegacion ul {
+  list-style: none;
+}
+
+.menu > li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu > li a {
+  display: block;
+  padding: 15px 80px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li a:hover {
+  color: black;
+  transition: all 0.3s;
+}
+
+.submenu {
+  position: absolute;
+  width: 121%;
+  background: rgb(155, 159, 159);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.3s;
+}
+
+.submenu li a {
+  display: block;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.menu li:hover .submenu {
+visibility: visible;
+opacity: 1;
+}
+
+p {
+    font-family: 'Shantell Sans', cursive, 'Arial';
+}
+
+
+
+
+
+.arriba4 {
+  background-color: #850ba7;
+  font-family: 'Shantell Sans', cursive , Arial, Helvetica, sans-serif;
+  font-size: 21px;
+}
+
+.certi {
+  position:absolute;
+  top:300px;
+  left:110px;
+  width:630px;
+  margin-top:10px;
+  background-color:#c399ef;
+  font-size: large;
+  font-family:'Comic Sans MS', Arial, Helvetica, sans-serif;
+  border-radius: 21px;
+  border-color: black;
+}
+
+.java {
+  position:absolute;
+  top:325px;
+  left:820px;
+  width:570px;
+  background:none;
+  border-radius: 30px;
+  border-color: black;
+}
+
+.git {
+  position:absolute;
+  top:535px;
+  left:900px;
+  width:570px;
+  background:none;
+  border-radius: 30px;
+  border-color: black;
+}
+
+.javag {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 380px;
+  height: 170px;
+}
+
+.gitg {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 210px;
+  height: 210px;
+}
+
